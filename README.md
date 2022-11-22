@@ -5,7 +5,8 @@ To install necesary dependencies run.
 ``` npm install ```
 
 
-### In the env file you need add your token from ```https://www.football-data.org/ ```
+### In the env file you need add your token from  
+```https://www.football-data.org/ ```
 
 
 ## PLAYERS
