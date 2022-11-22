@@ -18,7 +18,7 @@ To run the app.
 To get players for league send in the body the leagueCode. 
 
 
-```Example: { league: 'ELC' }```  
+Example: ```{ league: 'ELC' }```  
 
 
 To get players for team send in the body the teamName. 
@@ -30,13 +30,13 @@ Example: ```{ team: 'Blackburn Rovers FC' }```
 ## TEAMS
 ```http://localhost:3003/teams ```  
 
-To get a team send the name to the team in the body. 
+To get a team send the team's name in the body. 
 
 
-```Example: { name: Blackburn Rovers FC }```  
+Example: ```{ name: Blackburn Rovers FC }```  
 
 
-If you want add the players in the response add { players: 'ok' } in the body. 
+If you want to add the players in the response add { players: 'ok' } in the body. 
 
 
-```Example: { name: 'Blackburn Rovers FC', players: 'ok' }```
+Example: ```{ name: 'Blackburn Rovers FC', players: 'ok' }```
