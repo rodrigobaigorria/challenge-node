@@ -18,7 +18,7 @@ class Server {
         //Routes
         this.routes();
 
-        // First call and charge of data 
+        // First call and charge all data from API sport
         this.bind();
 
     }
