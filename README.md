@@ -16,6 +16,8 @@ To get players for league send in the body the leagueCode.
 
 
 ```Example: { league: 'ELC' }```  
+
+
 To get players for team send in the body the teamName. 
 
 
@@ -29,6 +31,8 @@ To get a team send the name to the team in the body.
 
 
 ```Example: { name: Blackburn Rovers FC }```  
+
+
 If you want add the players in the response add { players: 'ok' } in the body. 
 
 
