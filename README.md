@@ -4,6 +4,9 @@ Challenge API-REST node
 To install necesary dependencies run.  
 ``` npm install ```
 
+To run the app.  
+```npm run dev ```
+
 
 ### In the env file you need add your token from  
 ```https://www.football-data.org/ ```
