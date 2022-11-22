@@ -27,7 +27,7 @@ To get players for team send in the body the teamName.
 Example: ```{ team: 'Blackburn Rovers FC' }```
 
 
-## TEAM
+## TEAMS
 ```http://localhost:3003/teams ```  
 
 To get a team send the name to the team in the body. 
