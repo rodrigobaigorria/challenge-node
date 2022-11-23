@@ -3,6 +3,7 @@ const { dbConnetion } = require('../db/config');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const { localData } = require('../api');
+const routes  =require('../routes');
 
 class Server {
 
@@ -37,10 +38,11 @@ class Server {
 
     }
     
-    routes(name) {
-            this.app.use('/leagues', require('../routes/leagues')); 
-            this.app.use('/teams', require('../routes/teams'));   
-            this.app.use('/players', require('../routes/players'));
+    routes() {
+        this.app.use(routes);
+        this.app.use("*", (req, res) =>
+            res.status(404).json({ message: "Not found" })
+        );
     }
 
     bind() {
